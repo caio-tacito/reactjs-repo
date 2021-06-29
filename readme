@@ -10,3 +10,8 @@ git remote add origin git@github.com:URL-COPIADA-DO-GIT
 git add .
 git commit -m "Mensagem"
 git push origin master
+
+# CHAVES SSH
+ssh-keygen -t rsa -C "seu@email.com"
+cat ~/.ssh/id_rsa.pub
+
