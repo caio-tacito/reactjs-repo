@@ -1,0 +1,12 @@
+sudo apt install git
+
+Configuração inicial do git
+git init
+git config --local user.name "Seu usuario"
+git config --local user.email "seu@email.com"
+git remote add origin git@github.com:URL-COPIADA-DO-GIT
+
+# Editei o projeto
+git add .
+git commit -m "Mensagem"
+git push origin master
